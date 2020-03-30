@@ -15,12 +15,17 @@ I will be using these NBA API's (https://rapidapi.com/blog/nba-basketball-stats-
 
 # MVP:
 
-\*For MVP, I will have all my data recieved from the API implemented into each of my components need-be.
-Majority of my paths the content will be rendering on their specificed page.
-I will have my js logic configured and for my alphabetizing my list for my Player List page.
-All of my 5 storybook stories will be written out and placed within my website.
-All of my media queries will be set/ layouts for Desktop, iPhone X, iPad, and iPad Pro fully set.
-My website will be hosted on surge upon completion of MVP.
+- For MVP, I will have all my data recieved from the API implemented into each of my components need-be.
+
+- Majority of my paths the content will be rendering on their specificed page.
+
+- I will have my js logic configured and for my alphabetizing my list for my Player List page.
+
+- All of my 5 storybook stories will be written out and placed within my website.
+
+- All of my media queries will be set/ layouts for Desktop, iPhone X, iPad, and iPad Pro fully set.
+
+- My website will be hosted on surge upon completion of MVP.
 
 # Post-MVP:
 
