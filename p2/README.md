@@ -29,11 +29,15 @@ I will be using these NBA API's (https://rapidapi.com/blog/nba-basketball-stats-
 
 # Post-MVP:
 
-My plan is to have event listeners built-in for all my storybook buttons on page.
-Another thing I will like to include is some Bootstrap to help styling.
-I will also have a UX student examine/Software Engineer critique my app, to see how I can improve the users experience.
-References for each source will be included.
-In additon, I will be be including a favicon in place this will bring that more organic website feel.
+- My plan is to have event listeners built-in for all my storybook buttons on page.
+
+- Another thing I will like to include is some Bootstrap to help styling.
+
+- I will also have a UX student examine/Software Engineer critique my app, to see how I can improve the users experience.
+
+- References for each source will be included.
+
+- In additon, I will be be including a favicon in place this will bring that more organic website feel.
 
 # Wireframe :
 
