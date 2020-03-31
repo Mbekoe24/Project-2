@@ -10,7 +10,7 @@ function Header() {
           <Link to="/">
             <h1>Home</h1>
           </Link>
-          <Link to="/players/:playerList">
+          <Link to="/players">
             <h1>List of Players</h1>
           </Link>
         </nav>

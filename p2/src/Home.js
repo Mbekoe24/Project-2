@@ -5,7 +5,9 @@ import Header from "./Header";
 import Profile from "./Profile";
 
 function Home() {
-  return <div></div>;
+  return <div>
+    
+  </div>;
 }
 
 export default Home;
