@@ -9,6 +9,7 @@ import React, { Component } from "react";
 import PlayerList from "./components/PlayerList/PlayerList";
 import Header from "./components/Header/Header";
 import Profile from "./components/Profile/Profile";
+import Home from "./components/Home/Home";
 
 // SETTING A LIST FOR ALL NBA PLAYERS & IMAGES FOR EACH NBA PLAYER
 
@@ -280,6 +281,8 @@ class App extends Component {
     return (
       <div>
         <Header />
+        <Route exact path="/" component={Home} />
+
         <Route
           exact
           path="/players"

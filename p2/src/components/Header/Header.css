@@ -2,24 +2,30 @@ nav {
   display: flex;
   margin: 0;
 }
-
+h1 {
+  color: white;
+  text-decoration: none;
+}
+a {
+  text-decoration: none;
+}
 nav h1 {
   margin-left: 10px;
 }
 
 header {
-  font-size: .7em;
-
+  font-size: 0.7em;
+  padding: 10px;
   background: #134e5e; /* fallback for old browsers */
   background: -webkit-linear-gradient(
     to right,
-    #71b280,
-    #134e5e
+    #0b153c,
+    #96f90c
   ); /* Chrome 10-25, Safari 5.1-6 */
   background: linear-gradient(
     to right,
-    #71b280,
-    #134e5e
+    #0b153c,
+    #96f90c
   ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-  border-radius: 5px;
+  border-radius: 2px;
 }

@@ -11,7 +11,7 @@ function Header() {
             <h1>Home</h1>
           </Link>
           <Link to="/players">
-            <h1>List of Players</h1>
+            <h1>NBA Players</h1>
           </Link>
         </nav>
       </header>

@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import axios from "axios";
 import "./PlayerList.css";
-import { Route, Link } from "react-router-dom";
+import { Link } from "react-router-dom";
 
 class PlayerList extends Component {
   constructor(props) {
@@ -11,10 +11,8 @@ class PlayerList extends Component {
       leaguePlayers: []
     };
   }
- 
 
   componentDidMount = async () => {
-
     const listURL = "https://nba-players.herokuapp.com/players/"; //
     const response = await axios(listURL);
 
@@ -23,18 +21,18 @@ class PlayerList extends Component {
     });
   };
 
-
-
   setBackground = () => {
-    if (this.props.players.team_acronym === this.props.logo.TeamCode) {
-
+    if (
+      this.state.players.team_acronym === this.props.logo.TeamCode.toLowerCase()
+    ) {
+      console.log(this.props.logo.TeamCode.toLowerCase());
     }
+    return this.props.logo.TeamLogoUrl;
   };
 
-
-
-
-
+  // // alphabetize first names
+  // playerArray = playerNames.split(" "), playerArray.sort()
+  ////// DONT DELETE
 
   render() {
     let playerNames = this.props.players.map((player, index) => (
@@ -44,7 +42,9 @@ class PlayerList extends Component {
             player.name.split(" ")[0]
           }`}
         >
-          <li key={index}>{player.name} </li>
+        
+            <li key={index}>{player.name} </li>
+        
         </Link>
         <li> {player.team_name} </li>{" "}
       </>
