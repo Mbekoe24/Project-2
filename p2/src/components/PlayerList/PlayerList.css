@@ -1,6 +1,7 @@
 ul {
   margin: 0;
   list-style: none;
+  padding: 0;
 }
 
 li {
@@ -8,8 +9,8 @@ li {
   justify-content: space-around;
   margin-bottom: 5px;
   font-weight: 800;
+  color: #0b153c;
 }
-
 
 .column {
   column-count: 3;
