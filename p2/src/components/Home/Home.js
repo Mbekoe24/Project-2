@@ -1,20 +1,35 @@
 import React from "react";
 import "./Home.css";
 
+import HomeB from "./HomeB";
 function Home() {
   return (
-    <div>
-      <div className="title-container">
+    <div className="flex">
+      <div>
         <h1>NBA DATABASE</h1>
       </div>
-      <p className="greeting-container">
-        Welcome to my NBA DATABASE! This Database holds every NBA player in the
-        2017-2018 season.
-        <br />
-        On the next page, you can click on one player from the NBA Players list
-        and find out their season averages in an 82 game season. Have fun, and
-        remeber "Men lie, Women lie, but Stats don't lie" - Richard Sherman!
-      </p>
+
+      <div>
+        <p className="greeting-container">
+          <h2> WELCOME TO MY NBA DATABASE</h2>
+          This Database holds every NBA player in the <br /> 2017-2018 season.
+          <br />
+          On the next page, you can click on any player of your choosing from
+          the NBA Players list and find out their season averages in an 82 game
+          season. <br />
+          Remember
+        </p>
+        <h3> "Men lie, Women lie, Stats Don't lie" - Richard Sherman!</h3>
+        <iframe
+          src="https://giphy.com/embed/M96bl1lwzuNfIkDwo2"
+          width="480"
+          height="300"
+          frameBorder="0"
+          class="giphy-embed"
+          allowFullScreen
+        ></iframe>
+        <HomeB />
+      </div>
     </div>
   );
 }

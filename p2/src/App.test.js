@@ -32,4 +32,25 @@ describe("App component", () => {
   it("should render a Header within the return", () => {
     expect(component.contains(<Header />));
   });
+  //TEST 6
+  it("should have a state attribute called team initialized to empty array", () => {
+    expect(component.state("team")).toEqual([]);
+  });
+  //TEST 7
+
+  //TEST 8
+
+  //TEST 9
+
+  //TEST 10
+
+  //TEST 11
+
+  //TEST 12
+
+  //TEST 13
+
+  //TEST 14
+
+  //TEST 15
 });

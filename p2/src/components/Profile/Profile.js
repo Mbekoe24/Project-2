@@ -17,7 +17,7 @@ class Profile extends Component {
       //response 1 is the img
       `https://nba-players.herokuapp.com/players/${this.props.match.params.lastName}/${this.props.match.params.firstName}`
     );
-    // console.log(response1);
+    console.log(response1);
 
     const response2 = await axios(
       // response 2 is the stats

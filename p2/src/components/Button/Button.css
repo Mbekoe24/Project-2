@@ -1,26 +1,35 @@
-button {
+/* button {
   padding: 5px 25px;
   border-radius: 2px;
+} */
+
+.Home {
+  color: white;
+  border: #0069d9;
+  margin-right: 10px;
+  margin-left: 10px;
 }
 
-.primary {
-  background-color: #0069d9;
+.NBA-Player {
   color: white;
   border: #0069d9;
 }
+/* //iPhone X
+/* @media only screen and (device-width: 375px) and (device-height: 812px) and (-webkit-device-pixel-ratio: 3) {} */
 
-.danger {
-  background-color: red;
-  color: white;
-  border: red;
-}
-.warning {
-  background-color: yellow;
-  color: black;
-  border: yellow;
-}
-.success {
-  background-color: green;
-  color: white;
-  border: green;
-}
+/* //iPhone X Max */
+/* @media only screen and (device-width: 414px) and (device-height: 896px) and (-webkit-device-pixel-ratio: 3) {} */
+/* 
+
+iPad 
+/* 
+@media (min-width: 768px) and (max-width: 1024px) {
+
+} */
+
+
+/* //iPhone Pad Pro
+@media (min-width: 1024px) and (max-width: 1366px) {} */
+
+
+ 

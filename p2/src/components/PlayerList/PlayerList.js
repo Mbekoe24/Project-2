@@ -37,7 +37,7 @@ class PlayerList extends Component {
             {player.name}{" "}
           </li>
         </Link>
-        <li> {player.team_name} </li>
+        <li className="team"> {player.team_name} </li>
       </div>
     ));
 

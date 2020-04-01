@@ -10,12 +10,12 @@ body {
   background-color: rgba(128, 128, 128, 0.3);
 }
 .text-container {
-  color: black;
+  color: #0b153c;
   font-weight: 800;
   font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
     "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
   font-size: 2em;
-  /* margin-left: 30%; */
+  margin-left: 10px;
 }
 p {
   text-align: left;
@@ -31,11 +31,6 @@ p {
   margin-left: 4%;
   /* margin-bottom: 5%; */
 }
-/* 
-//player image 
-/* .player-img {
-  margin-top: 0px;
-} */
 
 /* TABLE STYLING */
 section {

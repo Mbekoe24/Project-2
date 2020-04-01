@@ -1,12 +1,12 @@
 import React from "react";
 import "./Footer.css";
+import FooterLabel from "./FooterLabel";
+
 function Footer() {
   return (
     <>
       <div>
-        <footer>
-          <small> Webpage by Michael Bekoe&copy; 2020</small>
-        </footer>
+        <FooterLabel />
       </div>
     </>
   );
