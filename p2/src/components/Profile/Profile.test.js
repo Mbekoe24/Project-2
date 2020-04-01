@@ -2,7 +2,6 @@ import React from "react";
 import { shallow } from "enzyme";
 import { Route, Link } from "react-router-dom";
 import Profile from "./Profile";
-import App from "../../App";
 
 describe("Profile component", () => {
   let component;
@@ -14,4 +13,3 @@ describe("Profile component", () => {
     expect(component.contains("PPG")).toBe(true);
   });
 });
-idk
