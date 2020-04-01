@@ -21,14 +21,7 @@ class PlayerList extends Component {
     });
   };
 
-  setBackground = () => {
-    if (
-      this.state.players.team_acronym === this.props.logo.TeamCode.toLowerCase()
-    ) {
-      console.log(this.props.logo.TeamCode.toLowerCase());
-    }
-    return this.props.logo.TeamLogoUrl;
-  };
+
 
   // // alphabetize first names
   // playerArray = playerNames.split(" "), playerArray.sort()
@@ -42,9 +35,7 @@ class PlayerList extends Component {
             player.name.split(" ")[0]
           }`}
         >
-        
-            <li key={index}>{player.name} </li>
-        
+          <li key={index}>{player.name} </li>
         </Link>
         <li> {player.team_name} </li>{" "}
       </>

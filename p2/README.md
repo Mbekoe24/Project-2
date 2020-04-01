@@ -13,6 +13,8 @@ This is a NBA Player Database, which includes player list, stats and bio. This p
 
 - I will be using this NBA API (https://nba-players.herokuapp.com/)
 
+<!-- // JSON DATA: https://gist.github.com/jaeyson/60fe551b9ffb82da517bc50893b61da7 -->
+
 # MVP:
 
 - For MVP, I will have all my data recieved from the API implemented into each of my components need-be.

@@ -32,14 +32,37 @@ class Profile extends Component {
     });
   };
 
+  // TeamLogoURL;
+
+  setBackground = teamLogo => {
+    return teamLogo.TeamLogoURL && this.state.stats
+      ? teamLogo.TeamCode.toLowerCase().includes(this.state.stats.team_acronym)
+      : true;
+    // this.state.stats.team_acronym.includes(this.props.team)
+    // this.props.teamLogo.find(logo => {
+    //   // return this.state.stats.team_acronym === logo.TeamCode.toLowerCase();
+    // });
+  };
+
   render() {
     return (
-      <div>
-        <div className="team-banner grid-container">
-          <img src={this.state.playerImg} />
+      <div className="container">
+        <img
+          className="teamLogo"
+          src={this.props.teamLogo
+            .filter(this.setBackground)
+            .map(logo => logo.TeamLogoURL)}
+        />
+        <div className="player-background">
+          <div>
+            <img className="player-img" src={this.state.playerImg} />
 
-          <h2>{this.state.stats.name}</h2>
-          <h2>{this.state.stats.team_name}</h2>
+            {/* <p className="text-container">
+              <span>
+                {this.state.stats.name} {this.state.stats.team_name}
+              </span>
+            </p> */}
+          </div>
 
           <section className="player-table-stats">
             <table role="grid">
