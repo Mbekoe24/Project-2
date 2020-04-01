@@ -23,11 +23,11 @@ This is a NBA Player Database, which includes player list, stats and bio. This p
 
 - I will have my js logic configured and for my alphabetizing my list for my Player List page.
 
-- All of my 5 storybook stories will be written out and placed within my website.
+- Have some storybook stories/ testing will be written out.
 
 - All of my media queries will be set/ layouts for Desktop, iPhone X, iPad, and iPad Pro fully set.
 
-- My plan is to have event listeners built-in for all my storybook buttons on page.
+<!-- - My plan is to have event listeners built-in for all my storybook buttons on page. -->
 
 - My website will be hosted on surge upon completion of MVP.
 

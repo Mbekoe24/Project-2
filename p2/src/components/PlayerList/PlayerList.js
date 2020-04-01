@@ -21,33 +21,30 @@ class PlayerList extends Component {
     });
   };
 
-
-
   // // alphabetize first names
   // playerArray = playerNames.split(" "), playerArray.sort()
   ////// DONT DELETE
 
   render() {
     let playerNames = this.props.players.map((player, index) => (
-      <>
+      <div>
         <Link
           to={`player/profile/${player.name.split(" ")[1]}/${
             player.name.split(" ")[0]
           }`}
         >
-          <div className="column">
-            <li key={index}>{player.name} </li>
-          </div>
+          <li className="player" key={index}>
+            {player.name}{" "}
+          </li>
         </Link>
         <li> {player.team_name} </li>
-      </>
+      </div>
     ));
 
     return (
       <>
-        {/* <div> <span> PLyaer </span></div> */}
         <div className="grid-container">
-          <ul>{playerNames}</ul>
+          <ul className="column">{playerNames}</ul>
         </div>
       </>
     );

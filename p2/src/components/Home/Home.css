@@ -1,3 +1,6 @@
 footer {
   height: 4vh;
 }
+.title-container {
+  border: 2px solid black;
+}
