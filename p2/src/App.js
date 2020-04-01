@@ -45,7 +45,7 @@ class App extends Component {
           TeamID: 1610612751,
           TeamLogoURL:
             "https://stats.nba.com/media/img/teams/logos/BKN_logo.svg",
-          TeamCode: "BKN"
+          TeamCode: "BRO"
         },
         {
           TeamCity: "Charlotte",

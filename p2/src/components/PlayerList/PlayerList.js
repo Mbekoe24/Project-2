@@ -35,9 +35,11 @@ class PlayerList extends Component {
             player.name.split(" ")[0]
           }`}
         >
-          <li key={index}>{player.name} </li>
+          <div className="column">
+            <li key={index}>{player.name} </li>
+          </div>
         </Link>
-        <li> {player.team_name} </li>{" "}
+        <li> {player.team_name} </li>
       </>
     ));
 

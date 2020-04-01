@@ -57,11 +57,8 @@ class Profile extends Component {
           <div>
             <img className="player-img" src={this.state.playerImg} />
 
-            {/* <p className="text-container">
-              <span>
-                {this.state.stats.name} {this.state.stats.team_name}
-              </span>
-            </p> */}
+            <p className="text-container">{this.state.stats.name}</p>
+            <p className="text-container"> {this.state.stats.team_name}</p>
           </div>
 
           <section className="player-table-stats">

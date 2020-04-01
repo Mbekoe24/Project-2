@@ -18,7 +18,7 @@ body {
   margin-left: 30%;
 }
 p {
-  margin: 0;
+  text-align: left;
 }
 /* //// IMAGE STYLING */
 .teamLogo {
@@ -27,17 +27,17 @@ p {
   /* top: 30px; */
   z-index: -1;
   width: 100%;
-  height: 60%;
+  height: 50%;
 }
+/* 
+//player image 
 /* .player-img {
   margin-top: 0px;
 } */
-/* div .teamLogo {
-  width: 2000px;
-} */
+
 /* TABLE STYLING */
-section{
-  margin-top: 20%;
+section {
+  margin-top: 10%;
 }
 
 table {
@@ -46,7 +46,6 @@ table {
   border-spacing: 2px;
   font-weight: 800;
 }
-
 
 .player-table-stats {
   padding: 30px;
