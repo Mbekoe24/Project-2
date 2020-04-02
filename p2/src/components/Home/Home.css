@@ -109,10 +109,17 @@ button:hover {
 }
 
 /* iPad  */
-/* 
-@media (min-width: 768px) and (max-width: 1024px) {
 
-} */
+@media (min-width: 768px) and (max-width: 1024px) {
+  button {
+    height: 68px;
+    margin-left: 17%;
+  }
+  h3 {
+    margin-right: 40%;
+    margin-left: 10%;
+  }
+}
 
 /* //iPhone Pad Pro
 @media (min-width: 1024px) and (max-width: 1366px) {} */
