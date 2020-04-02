@@ -30,3 +30,27 @@ header {
   ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
   border-radius: 2px;
 }
+
+/* iPhone X
+@media only screen and (device-width: 375px) and (device-height: 812px) and (-webkit-device-pixel-ratio: 3) {
+
+
+
+} */
+
+/* //iPhone X Max */
+@media only screen and (device-width: 414px) and (device-height: 896px) and (-webkit-device-pixel-ratio: 3) {
+  header {
+    width: 159vw;
+  }
+}
+/* 
+
+iPad 
+/* 
+@media (min-width: 768px) and (max-width: 1024px) {
+
+} */
+
+/* //iPhone Pad Pro
+@media (min-width: 1024px) and (max-width: 1366px) {} */

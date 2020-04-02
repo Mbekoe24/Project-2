@@ -22,7 +22,6 @@ h2 {
   border: 2px solid #0b153c;
   margin: 0px 0px 0px 20px;
 }
-
 iframe {
   margin-left: 150px;
   margin-bottom: 40px;
@@ -61,3 +60,39 @@ button:hover {
   color: white;
   cursor: pointer;
 }
+
+/* iPhone X
+@media only screen and (device-width: 375px) and (device-height: 812px) and (-webkit-device-pixel-ratio: 3) {
+
+
+
+} */
+
+/* //iPhone X Max */
+@media only screen and (device-width: 414px) and (device-height: 896px) and (-webkit-device-pixel-ratio: 3) {
+  h3 {
+    font-size: 40px;
+  }
+
+  iframe {
+    width: 70%;
+  }
+
+  h2 {
+    font-size: 2em;
+  }
+  .home-nav {
+    font-size: 5em;
+    margin: 0px 0px 0px 20px;
+  }
+}
+/* 
+
+iPad 
+/* 
+@media (min-width: 768px) and (max-width: 1024px) {
+
+} */
+
+/* //iPhone Pad Pro
+@media (min-width: 1024px) and (max-width: 1366px) {} */

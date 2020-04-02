@@ -19,7 +19,7 @@ function Home() {
           season. <br />
           Remember
         </p>
-        <h3> "Men lie, Women lie, Stats Don't lie" - Richard Sherman!</h3>
+        <h3> "Men lie, Women lie, Stats Don't lie!" - Richard Sherman</h3>
         <iframe
           src="https://giphy.com/embed/M96bl1lwzuNfIkDwo2"
           width="480"
@@ -28,7 +28,7 @@ function Home() {
           class="giphy-embed"
           allowFullScreen
         ></iframe>
-        <HomeB />
+        <HomeB className="home-nav" />
       </div>
     </div>
   );
