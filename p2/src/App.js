@@ -253,7 +253,7 @@ class App extends Component {
           TeamID: 1610612762,
           TeamLogoURL:
             "https://stats.nba.com/media/img/teams/logos/UTA_logo.svg",
-          TeamCode: "UTA"
+          TeamCode: "UTH"
         },
         {
           TeamCity: "Washington",

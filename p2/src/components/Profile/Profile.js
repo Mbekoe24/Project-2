@@ -108,7 +108,9 @@ class Profile extends Component {
 
               <tbody>
                 <tr className="stats">
-                  <th scope="row">SEASON</th>
+                  <th className="season" scope="row">
+                    SEASON
+                  </th>
 
                   <td>{this.state.stats.minutes_per_game}</td>
 

@@ -4,11 +4,17 @@ body {
 .container {
   min-height: 80vh;
   max-height: 100vh;
+  background-color: rgba(128, 128, 128, 0.3);
 }
 
 .player-background {
   background-color: rgba(128, 128, 128, 0.3);
 }
+
+.player-img {
+  margin: 0;
+}
+
 .text-container {
   color: #0b153c;
   font-weight: 800;
@@ -48,23 +54,18 @@ table {
   padding: 30px;
   background-color: #0b153c;
   color: #fff;
+  overflow: scroll;
 }
 
 abbr[title] {
-  border: 1px solid green;
   margin-right: 20px;
   margin-left: 10px;
-  border-right: none;
   text-decoration: none;
-  border-bottom: none;
-  border-left: none;
-  border-top: none;
+  border: none;
 }
 
 .player-table-stats tr td {
   border: 1px solid rgb(110, 111, 104);
-  /* border-bottom: none; */
-  /* border-left: none; */
 }
 .stats td {
   font-size: 24px;
@@ -80,3 +81,53 @@ abbr[title] {
 .player-table-stats tr th:nth-child(1) {
   text-align: left;
 }
+
+.season {
+  margin-right: 0px;
+}
+/* iPhone X
+@media only screen and (device-width: 375px) and (device-height: 812px) and (-webkit-device-pixel-ratio: 3) {
+
+
+
+} */
+
+/* //iPhone X Max */
+@media only screen and (device-width: 414px) and (device-height: 896px) and (-webkit-device-pixel-ratio: 3) {
+  .player-table-stats tr th:nth-child(1) {
+    text-align: left;
+  }
+  .season {
+    padding-right: 10px;
+  }
+  .teamLogo {
+    width: 85%;
+  }
+  .text-container {
+    font-size: 1.5em;
+    display: flex;
+    justify-content: center;
+  }
+  p {
+    margin-bottom: 0;
+    padding: 0;
+  }
+  section {
+    margin-top: 34%;
+  }
+
+  .player-img {
+    margin-top: 80%;
+    margin-left: 8%;
+  }
+}
+/* 
+
+iPad 
+/* 
+@media (min-width: 768px) and (max-width: 1024px) {
+
+} */
+
+/* //iPhone Pad Pro
+@media (min-width: 1024px) and (max-width: 1366px) {} */

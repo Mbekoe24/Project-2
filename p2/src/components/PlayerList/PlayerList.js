@@ -11,7 +11,7 @@ class PlayerList extends Component {
       leaguePlayers: []
     };
   }
-
+  ///API CALL
   componentDidMount = async () => {
     const listURL = "https://nba-players.herokuapp.com/players/"; //
     const response = await axios(listURL);
@@ -21,22 +21,24 @@ class PlayerList extends Component {
     });
   };
 
-  // // alphabetize first names
-  // playerArray = playerNames.split(" "), playerArray.sort()
-  ////// DONT DELETE
-
   render() {
-    let playerNames = this.props.players.map((player, index) => (
-      <div>
+    ///SORTING PLAYERS BY FIRST NAME
+    const sortedPlayers = this.props.players.sort((a, b) =>
+      a.name > b.name ? 1 : -1
+    );
+    ///MAPPING THROUGH THE FUNCTION
+    let playerNames = sortedPlayers.map(player => (
+      <div key={player.name}>
         <Link
+          // FLIPPING NAME ORDER FROM FIRST TO LAST TO LAST TO FIRST FOR API REQUIREMENT
           to={`player/profile/${player.name.split(" ")[1]}/${
             player.name.split(" ")[0]
           }`}
         >
-          <li className="player" key={index}>
-            {player.name}{" "}
-          </li>
+          {/* // PLAYER NAMES BEING LISTED */}
+          <li className="player">{player.name} </li>
         </Link>
+        {/* // TEAM NAMES BEING LISTED  */}
         <li className="team"> {player.team_name} </li>
       </div>
     ));
@@ -44,6 +46,7 @@ class PlayerList extends Component {
     return (
       <>
         <div className="grid-container">
+          {/* // DATA BEING LISTED  */}
           <ul className="column">{playerNames}</ul>
         </div>
       </>
